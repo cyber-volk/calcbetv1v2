@@ -1,0 +1,155 @@
+Calculator Application Requirements (Enhanced Version)
+==================================================
+
+1. Core Features (All features from newnew plus enhancements)
+-----------------------------------------------------------
+1.1. Multi-Site Management
+    [Same as newnew]
+
+1.2. Form Management
+    [Same as newnew]
+
+1.3. Calculation Features
+    [Same as newnew]
+
+1.4. Voice Input Support
+    [Same as newnew]
+
+1.5. NEW - Sharing Capabilities
+    - Multiple sharing formats:
+        a) Text Sharing:
+            * Formatted text summary
+            * Direct WhatsApp integration
+            * Includes all form details and calculations
+            * Timestamp and metadata
+        
+        b) Image Sharing:
+            * Captures form as image
+            * Downloads image locally
+            * Opens WhatsApp with instructions
+            * PNG format support
+            * High-quality rendering
+        
+        c) PDF Sharing:
+            * Generates professional PDF document
+            * Custom formatting and layout
+            * Section headers and organization
+            * Table formatting
+            * Downloads PDF locally
+            * Opens WhatsApp with instructions
+
+2. UI/UX Features
+----------------
+2.1. Site Management
+    [Same as newnew]
+
+2.2. Form Interface
+    [Same as newnew]
+
+2.3. History Management
+    [Same as newnew]
+
+2.4. NEW - Share Interface
+    - Share dropdown menu
+    - Multiple sharing options
+    - Loading indicators during processing
+    - Clear user instructions
+    - Error handling and feedback
+    - Click-outside dropdown closing
+    - Processing state management
+
+3. Technical Requirements
+------------------------
+3.1. Data Management
+    [Same as newnew]
+
+3.2. Input Processing
+    [Same as newnew]
+
+3.3. Calculation Logic
+    [Same as newnew]
+
+3.4. NEW - Share Processing
+    - HTML to Canvas conversion
+    - Canvas to PNG conversion
+    - PDF generation and formatting
+    - WhatsApp URL handling
+    - File download management
+    - Blob handling
+    - URL object management
+
+4. Accessibility Features
+------------------------
+[Same as newnew plus:]
+- Clear sharing instructions
+- Multiple format options
+- Processing feedback
+
+5. Error Handling
+----------------
+[Same as newnew plus:]
+- Share processing errors
+- File download errors
+- WhatsApp opening errors
+- Popup blocker detection
+- File conversion errors
+
+6. Performance Considerations
+---------------------------
+[Same as newnew plus:]
+- Efficient image processing
+- Optimized PDF generation
+- Memory management for large forms
+- Cleanup of temporary URLs and blobs
+
+7. Browser Compatibility
+-----------------------
+[Same as newnew plus:]
+- WhatsApp Web API support
+- Canvas API support
+- PDF generation support
+- Blob and File API support
+
+8. NEW - Integration Requirements
+-------------------------------
+8.1. WhatsApp Integration
+    - Direct WhatsApp sharing
+    - WhatsApp Web fallback
+    - Message formatting
+    - File attachment instructions
+
+8.2. File Processing
+    - Image processing library (html2canvas)
+    - PDF generation library (jsPDF)
+    - File download handling
+    - MIME type handling
+
+8.3. Security Considerations
+    - Safe file downloads
+    - Secure URL handling
+    - Cross-origin considerations
+    - Content security policy compliance
+
+9. NEW - Share Format Specifications
+---------------------------------
+9.1. Text Format
+    - Structured sections
+    - Clear formatting
+    - Unicode support
+    - Special character handling
+
+9.2. Image Format
+    - PNG format
+    - High resolution
+    - White background
+    - Proper scaling
+
+9.3. PDF Format
+    - Professional layout
+    - Multiple pages support
+    - Font management
+    - Color schemes
+    - Header and footer
+    - Page numbering
+    - Section organization
+    - Table formatting 
